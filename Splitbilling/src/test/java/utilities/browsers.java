@@ -16,6 +16,7 @@ public class browsers {
 		}
 		else if(browser.equals("IE"))
 		{
+			System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 			
 		}
 		else
